@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="call-section">
+
+<section id="schedule-call" class="section">
+  <div class="container">
+    <h2 class="section-title">Schedule a 1:1 Call</h2>
+    <form id="scheduleForm" class="form" method="get" th:action="@{/request-meeting}">
+      <div class="form-group">
+        <label for="userName">Full Name</label>
+        <input type="text" id="userName" name="userName" required placeholder="Your name" />
+      </div>
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" id="email" name="email" required placeholder="you@example.com" />
+      </div>
+      <div class="form-group">
+        <label for="preferredDateTime">Preferred Date & Time</label>
+        <input type="datetime-local" id="preferredDateTime" name="preferredDateTime" required />
+      </div>
+      <div class="form-group">
+        <label for="message">Message (Optional)</label>
+        <textarea id="message" name="message" placeholder="Let me know what you'd like to discuss"></textarea>
+      </div>
+      <button type="submit" class="btn">Schedule Call</button>
+    </form>
+  </div>
+</section>
+
+</th:block>
+</html>
