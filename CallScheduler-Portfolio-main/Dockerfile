@@ -1,10 +1,14 @@
-FROM maven:3.8.5-openjdk-17 as build
-WORKDIR /app
-COPY . .
-RUN ./mvnw clean package -DskipTests
+# Start with a base image containing Java runtime
+FROM openjdk:21-jdk
 
-FROM openjdk:17-jdk-slim
+# Set the working directory inside the container
 WORKDIR /app
-COPY --from=build /app/target/*.jar app.jar
-EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "app.jar"]
+
+# Copy the Maven build output (JAR file) into the container. Adjsut the name as needed.
+COPY target/personalportfolio-0.0.1-SNAPSHOT.jar app.jar
+
+# Expose the port on which your Spring Boot application will run
+#EXPOSE 9090
+
+# Run the JAR file
+CMD ["java", "-jar", "app.jar"]
