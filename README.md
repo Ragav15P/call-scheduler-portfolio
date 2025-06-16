@@ -3,6 +3,33 @@ A personal portfolio website enhanced with a powerful call scheduling system pow
 
 
 
+
+------------------------------------------------       ............................           -------------------------------------------------------------------
+
+
+
+## 🚀 Live Demo  [Visit the live site] https://demo-deployment-latest-h96x.onrender.com
+
+
+
+> ⚠️ **Note for Google Sign-In Users**  
+When signing in via Google (for Calendar access), you may see a **"Google hasn’t verified this app"** warning.  
+This is because this is a **personal/student project** and hasn’t gone through Google’s full OAuth verification process yet.
+
+To proceed:
+1. Click **"Advanced"**
+2. Then click **"Continue to demo-deployment-latest-h96x.onrender.com"**
+
+✅ You can safely continue — the app is read-only and doesn't store your personal data.
+
+
+
+
+
+
+
+
+
 ✨ Key Highlights
 ✅ Book 1:1 Google Meet video calls directly from the website
 
