@@ -6,7 +6,7 @@ A personal portfolio website enhanced with a powerful call scheduling system pow
 ✨ Key Highlights
 ✅ Book 1:1 Google Meet video calls directly from the website
 
-📩 Automatic email confirmations upon successful scheduling
+📩 Automatic email confirmations upon successful scheduling   using JavaMailSender(SMTP)
 
 🗓️ Real-time sync with Google Calendar
 
