@@ -16,11 +16,20 @@ A personal portfolio website enhanced with a powerful call scheduling system pow
 When signing in via Google (for Calendar access), you may see a **"Google hasn’t verified this app"** warning.  
 This is because this is a **personal/student project** and hasn’t gone through Google’s full OAuth verification process yet.
 
+
+
 To proceed:
 1. Click **"Advanced"**
 2. Then click **"Continue to demo-deployment-latest-h96x.onrender.com"**
 
 ✅ You can safely continue — the app is read-only and doesn't store your personal data.
+
+
+
+
+
+
+
 
 
 
@@ -48,6 +57,13 @@ To proceed:
 
 
 
+
+
+
+
+
+
+
 🛠 Tech Stack
 Layer	Tech Used
 Backend	Java, Spring Boot, Spring Security, JWT
@@ -55,6 +71,11 @@ Frontend	HTML, CSS, JavaScript
 Database	H2 (in-memory, can be switched to MySQL)
 APIs	Google Calendar API, JavaMailSender
 DevOps	Docker, Render.com, Environment Variables
+
+
+
+
+
 
 📁 Folder Structure
 
@@ -74,7 +95,13 @@ CallScheduler-Portfolio-main/
 
 
 
+
+
+
+
 🚀 Run Locally in 3 Easy Steps
+
+
 
 
 
@@ -91,7 +118,13 @@ cd call-scheduler-portfolio
 
 
 
+
+
+
 🌐 Visit http://localhost:9090 once the server is up.
+
+
+
 
 
 📸 Screenshots
@@ -122,6 +155,11 @@ cd call-scheduler-portfolio
 
 
 <img width="856" alt="image" src="https://github.com/user-attachments/assets/88ef489e-958c-4712-b020-e546cf2e10d8" />
+
+
+
+
+
 
 
 
